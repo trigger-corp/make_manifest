@@ -3,6 +3,8 @@ make_manifest
 
 A script for creating a Reload manifest. Use this as part of the `process to Reload your app with content hosted on a CDN such as Rackspace Cloud Files <http://current-docs.trigger.io/tools/reload.html#reloading-app-content-from-rackspace-cloud-files-or-other-cdn>`_.
 
+You will only need to use this script if you wish to push the Reload via the standalone build API. The Toolkit UI `automates this process <http://current-docs.trigger.io/tools/reload.html#reload-cdn-toolkit>`_
+
 Tested with python 2.7
 
 Description
