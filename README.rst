@@ -18,12 +18,12 @@ Usage
 
 The script creates a manifest file and copies your app files in the destination directory. The app files are renamed with a hash. You must upload the manifest and the renamed files to your CDN.
 
-   * `python make_manifest.py <server_path> <input_dir> <output_dir>`
-   * `server_path` is the url root where your files will be hosted on your CDN
-   * `input dir` is the directory containing your app files, usually the `src` subdirectory of your app
-   * `output_dir` is the directory you create where the files that you need to upload to the CDN will be generated
+* `python make_manifest.py <server_path> <input_dir> <output_dir>`
+* `server_path` is the url root where your files will be hosted on your CDN
+* `input dir` is the directory containing your app files, usually the `src` subdirectory of your app
+* `output_dir` is the directory you create where the files that you need to upload to the CDN will be generated
 
-Example: 
+Example::
 
    python make_manifest.py http://7bda29eaef66b400b7a3-f7a161a32968fd6c090a7ab168500005.r25.cf2.rackcdn.com/ ~/forge-workspace/reload-cloud-files/src ~/forge-workspace/reload-cloud-files/manifest/
 	   copied /Users/amirnathoo/forge-workspace/reload-cloud-files/src/config.json to /Users/amirnathoo/forge-workspace/reload-cloud-files/manifest/0dc3ebc12e894c77a248a4e5b34e594d9d4493d1
