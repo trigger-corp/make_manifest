@@ -18,10 +18,10 @@ Usage
 
 The script creates a manifest file and copies your app files in the destination directory. The app files are renamed with a hash. You must upload the manifest and the renamed files to your CDN.
 
-* `python make_manifest.py <server_path> <input_dir> <output_dir>`
-* `server_path` is the url root where your files will be hosted on your CDN
-* `input dir` is the directory containing your app files, usually the `src` subdirectory of your app
-* `output_dir` is the directory you create where the files that you need to upload to the CDN will be generated
+* ``python make_manifest.py <server_path> <input_dir> <output_dir>``
+* ``server_path`` is the url root where your files will be hosted on your CDN
+* ``input dir`` is the directory containing your app files, usually the ``src`` subdirectory of your app
+* ``output_dir`` is the directory you create where the files that you need to upload to the CDN will be generated
 
 Example::
 
