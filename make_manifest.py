@@ -15,7 +15,8 @@ def main():
 	manifest = {}
 	for root, dirs, files in os.walk(input_dir):
 		for index, dir_ in enumerate(dirs):
-			if dir_ in ('.hg',):
+			# TODO honour .forgeignore?
+			if dir_ in ('.hg', '.git'):
 				del dirs[index]
 
 		for file_ in files:
