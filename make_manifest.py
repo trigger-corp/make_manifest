@@ -8,7 +8,7 @@ import sys
 def main():
 	try:
 		server_path, input_dir, output_dir = sys.argv[1:4]
-	except IndexError:
+	except ValueError:
 		print "usage: {} server_path input_dir output_dir".format(sys.argv[0])
 		sys.exit(1)
 

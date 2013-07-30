@@ -1,0 +1,9 @@
+{
+    "js/bootstrap.js": "http://127.0.0.1/7f7ba92856cf2869e3f1300f89fc04c94bda73ce", 
+    "index.html": "http://127.0.0.1/9bcc9bdc1f5ba1ed54acfbda4aec1bd4711f2cf2", 
+    "js/jquery-2.0.2.js": "http://127.0.0.1/37fc3e651159cf6b9353a3f6f3bfe6e5e63e0092", 
+    "identity.json": "http://127.0.0.1/8725a6a87f136c8adad469af35bac0b762318cbf", 
+    "js/main.js": "http://127.0.0.1/bc07e481ba5b7e043228eee6681b1030056c8921", 
+    "css/bootstrap.css": "http://127.0.0.1/67b0d786830c44a851ad913fe81be2d67abdc1ea", 
+    "config.json": "http://127.0.0.1/bced48e56c62ec5c97e40452c45367c271dee5c3"
+}
